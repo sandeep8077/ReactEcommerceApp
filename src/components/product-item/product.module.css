@@ -1,0 +1,58 @@
+.productCard {
+    border-radius: 10px;
+    margin: auto;
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    margin-bottom: 20px;
+    background-color: #efefef;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 0px 0px 3px 1px darkgray;
+}
+
+.imgPriceContainer {
+    display: flex;
+    align-items: center;
+}
+
+.titleRatingPrice {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.priceContainer {
+    margin-bottom: 60px;
+}
+
+.priceContainer img {
+    width: 200px;
+    margin-right: 60px;
+}
+
+.ratingContainer {}
+
+.descActions {
+    width: 30%;
+}
+
+.descriptionContainer {
+    margin-bottom: 15px;
+}
+
+.actionContainer {
+    display: flex;
+    margin-top: 15px;
+    position: absolute;
+    bottom: 15px;
+    right: 5px;
+}
+
+.actionIcon img {
+    width: 25px;
+    margin-right: 25px;
+    cursor: pointer;
+}
